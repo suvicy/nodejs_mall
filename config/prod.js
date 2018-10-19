@@ -1,0 +1,8 @@
+// 生产环境(Mac无权限使用1024以下到端口)
+module.exports = {
+    PORT: 80,
+    DB: "product-manager",
+    TOKEN_EXPIRE: 1000 * 60 * 60 * 24 * 7,
+    TOKEN_KEY: "product-manager",
+    PAGE_SIZE: 10
+}
