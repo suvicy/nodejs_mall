@@ -1,5 +1,6 @@
 // 读取环境变量中NODE_ENV的值
 let nodeenv = process.env.NODE_ENV;
+console.log("nodeenv====="+nodeenv);
 
 let config = null;
 //如果值是prod,就去加载生产环境的配置
