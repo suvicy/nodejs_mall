@@ -21,7 +21,7 @@ app.use(morgan('combined'));
 app.use(express.json());
 //加载自定义的路由模块
 app.use("/user",require("./router/user"));
-// app.use("/category",require("./router/category"));
+app.use("/category",require("./router/category"));
 // app.use("/product",require("./router/product"));
 // app.use("/order",require("./router/order"));
 
